@@ -1,0 +1,150 @@
+:root{
+	--white: #ffffff;
+	--black: #3a3a3a;
+}
+
+
+
+Body{
+	margin: 0px;
+	background-color: var(--white);
+}
+
+
+/* TITLE */
+.webName{
+	position: absolute;
+	font-family: "Montserrat";
+	font-size: 35px;
+	top:5%;
+	LEFT: 11%;
+	color: var(--black);
+	font-weight: 500;
+	user-select: none;
+}
+.leftBackground{
+	position: absolute;
+	top: 23%;
+	left: 20%;
+	user-select: none;
+}
+
+
+/* NAV */
+div.navCon{
+	font-family: Montserrat;
+	font-size: 20px;
+	color: #b9b9b9;
+	width: 45%;
+	height: 0%;
+	user-select: none;
+}
+.navTab{
+	position: absolute;
+	top: 5%;
+	left: 56%;
+	user-select:none;
+	cursor: pointer;
+}
+.nav1{
+	color: #3a3a3a;
+}
+.nav2{
+	margin-left: 7%;
+}
+.nav3{
+	margin-left: 14%;
+}
+.nav4{
+	margin-left: 22%;
+}
+.nav5{
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #3a3a3a;
+	font-family:Montserrat ;
+	width: 10%;
+	height: 6%;
+	margin-left: 30%;
+	margin-top: 0.7%;
+	border-radius: 100px;
+	transition: 0.5s;
+}
+.nav5:hover{
+	background-color: #1d1d1d;
+}
+
+.nav2,.nav3,.nav4{
+	text-decoration: none;
+	transition: 0.5s;
+}
+.nav2:hover,.nav3:hover,.nav4:hover{
+	text-decoration: underline;
+	color: #3a3a3a;
+}
+
+
+
+
+/* INPUT LABEL */
+SPAN{
+	font-family: "Montserrat";
+	font-size: 20px;
+	position: absolute;
+	left: 52%;
+	top: 27%;
+	user-select: none;
+}
+SPAN.spnAge{
+	top: 41%;
+}
+SPAN.spnStrand{
+	top: 55%;
+}
+
+
+
+
+
+/* INPUT */
+input{
+	font-family: Montserrat;
+	font-size: 18px;
+	color: #3a3a3a;
+	position: absolute;
+	left: 54%;
+	top: 31%;
+	width: 20%;
+	height: 38px;
+	border-radius: 5px;
+	border-color: #3a3a3a;
+	border-width: 1.5px;
+	padding-left: 20px;
+}
+input.inptAge{
+	top: 46%;
+}
+input.inptStrand{
+	top:60%;
+}
+
+/* BUTTON */
+.submitButton{
+	font-family:Montserrat;
+	font-size: 18px;
+	width: 13%;
+	height: 5%;
+	border: none;
+	color: #ffffff;
+	background: #3a3a3a;
+	position: absolute;
+	top: 73%;
+	left: 58%;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.submitButton:hover{
+	background: #1d1d1d;
+}
+
